@@ -1,0 +1,38 @@
+{
+  "datasets": [
+    {
+      "input_file": "C:\\Users\\konga\\Documents\\Code\\nkemnorthstar-data-cleaning\\raw\\trx-10k.csv",
+      "output_file": "C:\\Users\\konga\\Documents\\Code\\nkemnorthstar-data-cleaning\\output\\trx-10k_cleaned.csv",
+      "statistics": {
+        "rows_processed": 10000,
+        "rows_written": 10000,
+        "values_normalized": 619
+      }
+    },
+    {
+      "input_file": "C:\\Users\\konga\\Documents\\Code\\nkemnorthstar-data-cleaning\\raw\\trx-99.csv",
+      "output_file": "C:\\Users\\konga\\Documents\\Code\\nkemnorthstar-data-cleaning\\output\\trx-99_cleaned.csv",
+      "statistics": {
+        "rows_processed": 99,
+        "rows_written": 99,
+        "values_normalized": 2
+      }
+    },
+    {
+      "input_file": "C:\\Users\\konga\\Documents\\Code\\nkemnorthstar-data-cleaning\\raw\\trx-extra-10k.csv",
+      "output_file": "C:\\Users\\konga\\Documents\\Code\\nkemnorthstar-data-cleaning\\output\\trx-extra-10k_cleaned.csv",
+      "statistics": {
+        "rows_processed": 10000,
+        "rows_written": 10000
+      }
+    },
+    {
+      "input_file": "C:\\Users\\konga\\Documents\\Code\\nkemnorthstar-data-cleaning\\raw\\trx.csv",
+      "output_file": "C:\\Users\\konga\\Documents\\Code\\nkemnorthstar-data-cleaning\\output\\trx_cleaned.csv",
+      "statistics": {
+        "rows_processed": 4,
+        "rows_written": 4
+      }
+    }
+  ]
+}

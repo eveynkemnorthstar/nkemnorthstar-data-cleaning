@@ -1,0 +1,418 @@
+{
+  "datasets": [
+    {
+      "file": "raw\\trx-10k.csv",
+      "row_count": 10000,
+      "column_count": 6,
+      "duplicate_rows": 0,
+      "malformed_rows": 0,
+      "columns": [
+        {
+          "name": "status",
+          "inferred_type": "string",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 6,
+          "sample_values": [
+            "success",
+            "fail",
+            "Success",
+            "failed",
+            "succeed"
+          ]
+        },
+        {
+          "name": "time",
+          "inferred_type": "datetime",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 1724,
+          "sample_values": [
+            "2025-09-07 10:48:00",
+            "2025-09-20 13:10:00",
+            "2025-09-29 03:27:00",
+            "2025-09-15 13:13:00",
+            "2025-09-11 11:11:00"
+          ]
+        },
+        {
+          "name": "card_type",
+          "inferred_type": "string",
+          "missing_count": 311,
+          "missing_percentage": 3.11,
+          "distinct_count": 10,
+          "sample_values": [
+            "Visa",
+            "MastCard",
+            "Discover",
+            "Master-Card",
+            "Amex"
+          ]
+        },
+        {
+          "name": "city",
+          "inferred_type": "string",
+          "missing_count": 116,
+          "missing_percentage": 1.16,
+          "distinct_count": 14,
+          "sample_values": [
+            "Tehran",
+            "Tehran ",
+            "Isfahan",
+            "Tabriz",
+            "Shiraz"
+          ]
+        },
+        {
+          "name": "amount",
+          "inferred_type": "number",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 52,
+          "sample_values": [
+            "1427657.0",
+            "1578078.0",
+            "250000.0",
+            "0.0",
+            "1782689.0"
+          ]
+        },
+        {
+          "name": "id",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 99,
+          "sample_values": [
+            "98",
+            "52",
+            "20",
+            "40",
+            "59"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "raw\\trx-99.csv",
+      "row_count": 99,
+      "column_count": 6,
+      "duplicate_rows": 0,
+      "malformed_rows": 0,
+      "columns": [
+        {
+          "name": "status",
+          "inferred_type": "string",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 6,
+          "sample_values": [
+            "success",
+            "failed",
+            "Success",
+            "fail",
+            "FAIL"
+          ]
+        },
+        {
+          "name": "time",
+          "inferred_type": "mixed",
+          "missing_count": 7,
+          "missing_percentage": 7.07,
+          "distinct_count": 68,
+          "sample_values": [
+            "23:17 2025-09-08",
+            "07:32 2025-09-20",
+            "03-00-2025 09-11",
+            "22:27 2025-09-11",
+            "02:24 2025-09-04"
+          ]
+        },
+        {
+          "name": "card_type",
+          "inferred_type": "string",
+          "missing_count": 3,
+          "missing_percentage": 3.03,
+          "distinct_count": 10,
+          "sample_values": [
+            "Discover",
+            "MastCard",
+            "Visa",
+            "Amex",
+            "Master Card"
+          ]
+        },
+        {
+          "name": "city",
+          "inferred_type": "string",
+          "missing_count": 1,
+          "missing_percentage": 1.01,
+          "distinct_count": 14,
+          "sample_values": [
+            "ThRan",
+            "karaj",
+            "Isfahan",
+            "Qom",
+            "Mashhad"
+          ]
+        },
+        {
+          "name": "amount",
+          "inferred_type": "mixed",
+          "missing_count": 2,
+          "missing_percentage": 2.02,
+          "distinct_count": 53,
+          "sample_values": [
+            "-5000",
+            "63489",
+            "1502601",
+            "9999999999",
+            "452545"
+          ]
+        },
+        {
+          "name": "id",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 99,
+          "sample_values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "raw\\trx-extra-10k.csv",
+      "row_count": 10000,
+      "column_count": 10,
+      "duplicate_rows": 0,
+      "malformed_rows": 0,
+      "columns": [
+        {
+          "name": "id",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 10000,
+          "sample_values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "name": "status",
+          "inferred_type": "string",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 5,
+          "sample_values": [
+            "processing",
+            "pending",
+            "success",
+            "reversed",
+            "failed"
+          ]
+        },
+        {
+          "name": "time",
+          "inferred_type": "datetime",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 9913,
+          "sample_values": [
+            "2024-12-02 02:58:00",
+            "2024-02-16 14:02:00",
+            "2024-06-10 14:23:00",
+            "2024-02-22 14:03:00",
+            "2024-04-04 22:10:00"
+          ]
+        },
+        {
+          "name": "card_type",
+          "inferred_type": "string",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 10,
+          "sample_values": [
+            "nano",
+            "visa",
+            "mastercard",
+            "prepaid",
+            "credit"
+          ]
+        },
+        {
+          "name": "city",
+          "inferred_type": "string",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 19,
+          "sample_values": [
+            "Sanandaj",
+            "Isfahan",
+            "Hamadan",
+            "Karaj",
+            "Tehran"
+          ]
+        },
+        {
+          "name": "amount",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 9993,
+          "sample_values": [
+            "470243",
+            "4025070",
+            "3573895",
+            "4961173",
+            "2067746"
+          ]
+        },
+        {
+          "name": "fees",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 5300,
+          "sample_values": [
+            "1511",
+            "5336",
+            "1686",
+            "6583",
+            "5001"
+          ]
+        },
+        {
+          "name": "discount",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 8523,
+          "sample_values": [
+            "13581",
+            "27780",
+            "7350",
+            "12284",
+            "24609"
+          ]
+        },
+        {
+          "name": "balance_before",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 9995,
+          "sample_values": [
+            "2569935",
+            "5584229",
+            "8785525",
+            "7120096",
+            "6591467"
+          ]
+        },
+        {
+          "name": "is_weekend",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 2,
+          "sample_values": [
+            "0",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "raw\\trx.csv",
+      "row_count": 4,
+      "column_count": 6,
+      "duplicate_rows": 0,
+      "malformed_rows": 0,
+      "columns": [
+        {
+          "name": "status",
+          "inferred_type": "string",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 2,
+          "sample_values": [
+            "success",
+            "fail"
+          ]
+        },
+        {
+          "name": "time",
+          "inferred_type": "datetime",
+          "missing_count": 1,
+          "missing_percentage": 25.0,
+          "distinct_count": 3,
+          "sample_values": [
+            "23:00 2025-09-10",
+            "03:00 2025-09-11",
+            "01:00 2025-09-11"
+          ]
+        },
+        {
+          "name": "card_type",
+          "inferred_type": "string",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 3,
+          "sample_values": [
+            "Visa",
+            "Vsa",
+            "MasterCard"
+          ]
+        },
+        {
+          "name": "city",
+          "inferred_type": "string",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 3,
+          "sample_values": [
+            "TEHRAN",
+            "Tehran",
+            "THR"
+          ]
+        },
+        {
+          "name": "amount",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 4,
+          "sample_values": [
+            "200000",
+            "0",
+            "-5000",
+            "99999999"
+          ]
+        },
+        {
+          "name": "id",
+          "inferred_type": "integer",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "distinct_count": 4,
+          "sample_values": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        }
+      ]
+    }
+  ]
+}
